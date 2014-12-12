@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Expenses Manager</title>
+		<meta name="description" content="">
+		<link rel="Shortcut Icon" type="image/ico" href="images/E-icon.png" />
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+	<!--Start Container-->
+	<div class="container">
+
+		<!--Start Header-->
+		<div class="page-header">
+
+			<img src="images/E-logo.png" class="img-responsive img-rounded" alt="Responsive image">
+
+			<h1>
+				Expenses Manager <br/>
+				<small>
+					Log, save, and keep track of your expenses.
+				</small>
+			</h1>
+		</div>
+		<!--End Header-->
+
+		<!--Start Row-->
+		<div class="row" id="logreg">
+
+			<!--Start Sign In-->
+				<div class="col-sm-6" id="login">
+
+					<form role="form" action="" method="">
+
+						<h3>Login</h3><br/>
+
+						<div class="form-group">
+						    <input type="text" class="form-control" placeholder="Username">
+						</div>
+
+						<div class="form-group">
+						    <input type="password" class="form-control" placeholder="Password">
+						</div>
+
+						<button type="submit" class="btn btn-primary pull-right">Login</button>
+
+					</form>
+
+				</div>
+			<!--End Sign In-->
+
+			<!--Start Register-->
+				<div class="col-sm-6" id="register">
+
+					<form role="form" action="" method="">
+
+						<h3>Register a new account</h3><br/>
+
+						<div class="form-group">
+						    <input id="usernameReg" type="text" class="form-control" placeholder="Username">
+						</div>
+
+						<div class="form-group">
+						    <input id="passwordReg" type="password" class="form-control" placeholder="Password">
+						</div>
+
+						<div class="form-group">
+						    <input id="passwordCon" type="password" class="form-control" placeholder="Confirm Password">
+						</div>
+
+						<div class="form-group">
+						    <input id="emailReg" type="email" class="form-control" placeholder="Email Address">
+						</div>
+
+						<div class="checkbox">
+  							<label>
+    							<input type="checkbox" value="">
+    							I agree on terms and conditions
+  							</label>
+						</div>
+
+						<button type="submit" class="btn btn-primary pull-right">Register</button>
+
+					</form>
+
+				</div>
+			<!--End Register-->
+
+
+
+		</div>
+		<!--End Row-->
+	</div>
+	<!--End Container-->
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
